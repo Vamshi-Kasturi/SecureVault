@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const multer = require('multer');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const jwt_token = require('jsonwebtoken');
 const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
