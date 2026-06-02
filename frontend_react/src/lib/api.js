@@ -1,4 +1,4 @@
-export const API_URL = 'http://localhost:8000/api';
+export const API_URL = 'https://securevault-backend-cthk.onrender.com/api';
 
 export const fetchAPI = async (endpoint, options = {}) => {
     const token = localStorage.getItem('token');
