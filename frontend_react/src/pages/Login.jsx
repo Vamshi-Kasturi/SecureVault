@@ -89,6 +89,11 @@ export default function Login() {
                 <p className="login-footer">
                     Don't have an account? <Link to="/register" className="login-link">Create one</Link>
                 </p>
+
+                <p className="login-footer"><u>Demo Credentials</u></p>
+                <p className="login-footer">Email: admin@securevault.com | Pass: admin@securevault</p>
+                <p className="login-footer">Email: user@securevault.com | Pass: user@securevault</p>
+                <p className="login-footer">Email: Viewer@securevault.com | Pass: viewer@securevault</p>
             </div>
         </main>
     );

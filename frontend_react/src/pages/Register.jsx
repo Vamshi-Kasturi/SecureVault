@@ -105,6 +105,10 @@ export default function Register() {
                 <p className="register-footer">
                     Already have an account? <Link to="/login" className="register-link">Log in</Link>
                 </p>
+
+                <p className="register-footer">
+                    Demo Credentials? <Link to="/login" className="register-link">Click here</Link>
+                </p>
             </div>
         </main>
     );
