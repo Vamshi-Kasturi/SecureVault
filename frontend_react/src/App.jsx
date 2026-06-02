@@ -4,6 +4,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Dashboard from './pages/Dashboard';
 import AdminPanel from './pages/Admin';
+import FooterCredit from './pages/FooterCredit';
 
 import './index.css';
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/admin" element={<AdminPanel />} />
       </Routes>
+      <FooterCredit />
     </Router>
   );
 }
