@@ -43,6 +43,7 @@ const Log = mongoose.model('Log', logSchema);
 
 const initDb = async () => {
     try {
+        console.log("DATABASE_URL exists:", !!process.env.DATABASE_URL);
         await mongoose.connect(process.env.DATABASE_URL);
         console.log('[DB] Connected to MongoDB');
 
